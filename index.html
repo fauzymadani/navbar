@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fauzy madani">
+    <meta name="description" content="membuat navbar">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #d6eff4;
+        }
+
+        .navbar {
+            background: #212121;
+            margin: 0;
+            padding: 20px 30px;
+            
+        }
+
+        .logo{
+            font-size: 14pt;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .tombol {
+            display: none;
+            color: white;
+            font-size: 14pt;
+        }
+
+        .tombol:hover{
+            cursor: pointer;
+        }
+
+        .menu {
+            margin: 0;
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li{
+            padding-left: 10px;
+            margin-right: 10px;
+
+        }
+
+        .menu li a{
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+
+            <a href="https://github.com.fauzymadani" class="logo">Fauzy Madani</a>
+
+            <ul class="menu">
+                
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">github</a></li>
+            </ul>
+
+            <div class="tombol">&#9776</div>
+
+             
+        </div>
+    </nav>
+    
+</body>
+</html>
